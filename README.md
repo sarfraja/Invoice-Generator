@@ -1,53 +1,37 @@
-In the project directory, you can run:
+# Invoice Generator - React App
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses [jspdf-react](https://www.npmjs.com/package/jspdf-react) to capture the data from the modal and covert it from canvas -> pdf.
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+### Live Demo
+https://invoice-generator-react.netlify.app/
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+### Screenshots
+<img src="https://i.imgur.com/wRetnxk.png" style="max-width: 100px; width: 100%; height: auto;">
+<img src="https://i.imgur.com/AZChaei.png" style="max-width: 100px; width: 100%; height: auto;">
+<img src="https://i.imgur.com/Bz3K3DE.png" style="max-width: 100px; width: 100%; height: auto;">
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+```
+git clone https://github.com/johnuberbacher/invoice-generator
 
-See the section about deployment for more information.
+npm install
 
-npm run eject
-Note: this is a one-way operation. Once you eject, you can't go back!
+npm start / npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+### To-Do
+- [x] Finish parsing data into Preview Modal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [x] Currency Picker
 
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] Calculate Tax and Discounts
 
-Learn More
-You can learn more in the Create React App documentation.
+- [ ] Store invoices in Firebase DB
 
-To learn React, check out the React documentation.
 
-Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Meta
 
-Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Sarfraj Alam – [sarfrajalam.shop](https://sarfrajalam.shop)
+#
